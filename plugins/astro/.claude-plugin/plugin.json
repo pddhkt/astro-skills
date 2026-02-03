@@ -1,0 +1,9 @@
+{
+  "name": "astro",
+  "description": "Implementation agents and skills for Astro framework development including routing, content collections, islands architecture, and API endpoints",
+  "version": "1.0.0",
+  "author": {
+    "name": "pddhkt"
+  },
+  "keywords": ["astro", "frontend", "content", "islands", "ssg", "api"]
+}

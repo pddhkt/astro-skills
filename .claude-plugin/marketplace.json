@@ -1,0 +1,19 @@
+{
+  "name": "astro-skills",
+  "owner": {
+    "name": "pddhkt"
+  },
+  "metadata": {
+    "description": "Astro framework stack skills for Team Claude",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "astro",
+      "source": "./plugins/astro",
+      "description": "Stack-specific skills and agents for Astro framework development including content, islands, and API patterns",
+      "version": "1.0.0",
+      "keywords": ["astro", "frontend", "content", "islands", "ssg"]
+    }
+  ]
+}

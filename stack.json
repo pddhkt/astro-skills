@@ -1,0 +1,38 @@
+{
+  "name": "astro",
+  "description": "Astro content-focused web framework with islands architecture",
+  "version": "1.0.0",
+  "domains": {
+    "frontend": {
+      "agent": "astro-impl",
+      "skills": ["astro"]
+    },
+    "content": {
+      "agent": "content-impl",
+      "skills": ["astro", "content"]
+    },
+    "api": {
+      "agent": "api-impl",
+      "skills": ["astro"]
+    },
+    "islands": {
+      "agent": "islands-impl",
+      "skills": ["astro", "islands"]
+    }
+  },
+  "workflows": {
+    "dev": {
+      "command": "npm run dev"
+    },
+    "build": {
+      "command": "npm run build"
+    },
+    "preview": {
+      "command": "npm run preview"
+    }
+  },
+  "detection": {
+    "files": ["astro.config.mjs", "astro.config.ts"],
+    "packages": ["astro"]
+  }
+}
