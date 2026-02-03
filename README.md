@@ -27,6 +27,7 @@ Claude Code plugin providing stack-specific skills and agents for Astro framewor
 | astro | `/astro:astro` | Astro framework patterns, routing, components |
 | content | `/astro:content` | Content collections and markdown |
 | islands | `/astro:islands` | Islands architecture and interactive components |
+| reflect | `/astro:reflect` | Push skill improvements back to source repo |
 
 ## Included Agents
 
@@ -69,7 +70,8 @@ astro-skills/
         └── skills/
             ├── astro/
             ├── content/
-            └── islands/
+            ├── islands/
+            └── reflect/
 ```
 
 ## License
